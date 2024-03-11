@@ -36,4 +36,4 @@ Table1 as register with tuples as
  TASKSTATUS                                         NUMBER(1)
  REGID                                              NUMBER
 
-Now
+Ceated the two tables succesfully...
