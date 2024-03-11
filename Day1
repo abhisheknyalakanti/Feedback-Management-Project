@@ -12,7 +12,7 @@ step 2: open cmd and type "sqlplus"
 step 3: now enter the oracle credentials as Username: system and Passwd:abhi
 step 4: Create a new user as pat and passwd as pat. create user pat identified by pat;
 step 5: Now grant permissions. cmd: "grant connect,resource to pat;"
-step 6: connect to the user pat "connect pat"
+step 6: connect to the user pat "connect pat;"
 
 
 Now for our feedback Managemnet Project,we need two tables.
@@ -36,4 +36,6 @@ Table1 as register with tuples as
  TASKSTATUS                                         NUMBER(1)
  REGID                                              NUMBER
 
-Ceated the two tables succesfully...
+Created the two tables succesfully...
+
+Now we need to write java server code.
