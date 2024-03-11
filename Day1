@@ -1,0 +1,37 @@
+
+oracle 10g XG
+apache tomcat 8
+eclipse enterprise edition download
+
+
+download all 3 softwares
+
+
+step 1:  install oracle and set path variables
+step 2: open cmd and type "sqlplus"
+step 3: now enter the oracle credentials as Username: system and Passwd:abhi
+step 4: Create a new user as pat and passwd as pat. create user pat identified by pat;
+step 5: Now grant permissions. cmd: "grant connect,resource to pat;"
+step 6: connect to the user pat "connect pat"
+
+
+Now for our feedback Managemnet Project,we need two tables.
+Create two tables as 
+Table1 as register with tuples as
+
+ REGID                                     NOT NULL NUMBER
+ FIRSTNAME                                          VARCHAR2(20)
+ LASTNAME                                           VARCHAR2(20)
+ EMAIL                                              VARCHAR2(20)
+ PASS                                               VARCHAR2(20)
+ MOBILE                                             NUMBER
+ ADDRESS                                            VARCHAR2(30)
+ 
+ table2 as task with tuples as
+
+
+ TASKID                                    NOT NULL NUMBER
+ TASKNAME                                           VARCHAR2(30)
+ TASKDATE                                           VARCHAR2(30)
+ TASKSTATUS                                         NUMBER(1)
+ REGID                                              NUMBER
