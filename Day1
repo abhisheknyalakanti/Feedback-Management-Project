@@ -35,3 +35,5 @@ Table1 as register with tuples as
  TASKDATE                                           VARCHAR2(30)
  TASKSTATUS                                         NUMBER(1)
  REGID                                              NUMBER
+
+Now
